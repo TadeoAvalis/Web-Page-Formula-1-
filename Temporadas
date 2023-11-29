@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="webstyle.css">
+	<title>F1 Grandstand</title>
+</head>
+<body>
+    <header>
+        <nav id="header-nav">
+            <a href="home.html"><img id="logo-svg" src="logo-no-background.svg" alt="website logo" width="350" height="150"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="one.html">Current F1 Season</a></li>
+                <li><a href="two.html">History of F1</a></li>
+            </ul>
+        </nav>
+    </header>
+	<h1>The 2023 Formula One Season</h1>
+    <div id="f1-drivers">
+        <h2>The Drivers</h2>
+        <p>
+            There are twenty total drivers on the grid for the 2023 F1 season including multiple world champions, Max Verstappen, Lewis Hamilton, and Fernando Alonso. Additionaly, this season features three new drivers on the grid who make their long awaited F1 debuts, Oscar Piastri, Nick DeVries, and Logan Sargeant.<br>
+            The twenty F1 drivers for the 2023 season, ranked by the current constructors championship positions, are as follows:<br>
+            <ol>
+                <li>Max Verstappen and Sergio Perez (Red Bull Racing)</li>
+                <li>Fernando Alonso and Lance Stroll (Aston Martin)</li>
+                <li>Lewis Hamilton and George Russell (Mercedes)</li>
+                <li>Charles Leclerc and Carlos Sainz (Ferarri)</li>
+                <li>Lando Norris and Oscar Piastri (McLaren)</li>
+                <li>Esteban Ocon and Pierre Gasly (Alpine)</li>
+                <li>Nico Hulkenberg and Kevin Magnussen (Haas F1 Team)</li>
+                <li>Valtteri Bottas and Zhou Guanyu (Alfa Romeo)</li>
+                <li>Yuki Tsunoda and Nick DeVries (AlphaTauri)</li>
+                <li>Alex Albon and Logan Sargeant (Williams)</li>
+            </ol>
+        </p>
+        <img id="drivers-image" src="driver-lineup.jpeg" height="550" width="800"></img>
+        <a href="https://f1i.com/images/467867-formula-1s-class-of-2023-reports-for-duty.html">Image Credits</a>
+    </div>
+    <div id="f1-races-2023">
+        <h2>Races from this Season</h2>
+        <p>So far this season there have been a total of three races, the Bahrain Grand Prix, the Saudi Arabian Grand Prix, and most recently the Australian Grand Prix. Each having its own surprises and unexpected performances.<br></p>
+        <h3>Bahrain Grand Prix</h3>
+        <p>
+            Max Verstappen, last year's Formula One (F1) world champion, won the 2023 Bahrain Grand Prix in dominant fashion, securing his first victory of the season. Verstappen led the race from start to finish and finished almost 12 seconds ahead of his teammate, Sergio Perez. Fernando Alonso, driving for Aston Martin, clinched his 99th podium finish in F1, while Carlos Sainz of Ferrari finished in fourth place. The race was a disappointment for Ferrari, as Charles Leclerc was forced to retire due to a power failure while in third place.
+        </p>
+        <img id="bahrain-track" src="bahrain-track.jpg" height="450" width="800"/>
+        <a href="https://matraxlubricants.com/3838-2/">Image Credits</a>
+        <h3>Saudi Arabian Grand Prix</h3>
+        <p>
+            Mexican driver Sergio Perez won the 2023 Saudi Arabian Grand Prix at the Jeddah Street Circuit, taking the fifth victory of his Formula One career. Perez lost first place to Fernando Alonso off the start line but quickly regained P1. Max Verstappen, who started the race in P15 due to qualifying issues, managed to finish in P2, while Alonso came in third but was later demoted to P4 after receiving an additional 10-second penalty. Mercedes drivers George Russell and Lewis Hamilton finished in P4 and P5 respectively, while Ferrari drivers Carlos Sainz and Charles Leclerc finished in P6 and P7. After the race, Fernando Alonso's penalty was revoked and he regained his P3 finish.
+        </p>
+        <img id="saudi-arabian-track" src="saudi-arabian-track.jpg" height="450" width="800"/>
+        <a href="https://tilke.de/en/portfolio/saudi-arabian-gp-at-the-jeddah-f1-street-circuit/">Image Credits</a>
+        <h3>Australian Grand Prix</h3>
+        <p>
+            Max Verstappen won his first F1 Australian Grand Prix in a chaotic race at Albert Park, Melbourne. The Dutchman was the favourite coming into the race, but he was overtaken by Mercedes drivers George Russell and Lewis Hamilton on the opening lap. After an early safety car due to Charles Leclerc's gravel beaching, the race was red-flagged seven laps later after Alex Albon's crash. Once the racing resumed, Verstappen built a commanding lead, which he held until the end of the race. Carlos Sainz, who battled for a podium position for most of the race, was hit with a five-second penalty after clipping Fernando Alonso during the second red flag restart. Oscar Piastri finished P8 on his home debut, and Sergio Perez won the F1 Driver of the Day award.
+        </p>
+        <img id="australia-track" src="autralia-track.jpg" height="450" width="800"/>
+        <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.quintevents.com%2Fm%2F82219a0580e225f%2F72_DPI_WEB-F1E-Australia-2022-F1-Helicopter-Joy-Ride-6.jpg&tbnid=YTcyPTWwv5nYIM&vet=12ahUKEwiSyrbftZP-AhUAElkFHUcmBlMQMygDegQIARBE..i&imgrefurl=https%3A%2F%2Ff1experiences.com%2F2023-australian-grand-prix%2Fflyer-lauda&docid=LFBfu1MeO9EaJM&w=959&h=640&q=2023%20albert%20park%20track%20helicopter%20view&client=safari&ved=2ahUKEwiSyrbftZP-AhUAElkFHUcmBlMQMygDegQIARBE">Image Credits</a>
+    </div>
+    <div id="nav-bottom">
+        <ul>
+            <li><a href="home.html">1</a></li>
+            <li><a id="current-page" href="one.html">2</a></li>
+            <li><a href="two.html">3</a></li>
+        </ul>
+    </div>
+</body>
+<footer>
+    <div id="footer">
+        <p>&copy; F1 Grandstand</p>
+        <p>Email: avalistadeo@gmail.com</p>
+    </div>
+</footer>
+</html>
