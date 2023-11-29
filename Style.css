@@ -1,0 +1,281 @@
+body {
+    color: #fff;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+#header-nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#header-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+#header-nav li {
+    margin-right: 30px;
+}
+
+#header-nav ul a {
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}  
+
+#header-nav ul a:hover {
+    text-decoration: none;
+    color:white;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#logo-svg {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #f73f3f, #b1263b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    margin-top: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: black;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    color: black;
+    margin: 10px;
+}
+
+p {
+    color: black;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+
+a {
+    color: red;
+    position: relative;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#what-is-f1 {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#about-the-teams {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#the-cars {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#f1-drivers {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#f1-races-2023 {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#how-it-started {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#f1-legends {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#f1-accidents {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#logo-svg {
+    border: none;
+}
+
+#what-is-f1 a,
+#about-the-teams a,
+#the-cars a,
+#f1-drivers a,
+#f1-races-2023 a,
+#how-it-started a,
+#f1-legends a,
+#f1-accidents a,
+#f1-legends a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#what-is-f1 p,
+#about-the-teams p,
+#the-cars p,
+#f1-drivers p,
+#f1-races-2023 p,
+#how-it-started p,
+#f1-legends p,
+#f1-accidents p,
+#f1-legends p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+#f1-drivers li {
+    color: black;
+    margin: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#bottom-nav {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+#bottom-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+#nav-bottom {
+    display: flex;
+    justify-content: center;
+}
+  
+#nav-bottom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+#nav-bottom li {
+    margin: 0 10px;
+}
+
+#nav-bottom a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+#nav-bottom a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#current-page {
+    background-color: darkgray;
+}
